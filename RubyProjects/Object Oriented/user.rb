@@ -1,4 +1,11 @@
+module Destructable 
+	def destroy(anyobject) 
+		puts "I will destroy anyobject"
+	end
+end
+
 class User
+	include Destructable
 	attr_accessor :name, :email
 	def initialize(name, email)
 		@name = name 
