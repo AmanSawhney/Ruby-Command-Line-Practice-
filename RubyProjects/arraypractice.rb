@@ -8,4 +8,4 @@ numArray.unshift(30) #adds 30 to the beginning of the array
 numArray.pop #pops off the last element of the array 
 print numArray.uniq.to_s + "\n" #prints only unique values 
 numArray.each {|number| puts number} #iderates over the array and prints each value
-
+puts numArray.join(" ") #joins the numbers with a space
